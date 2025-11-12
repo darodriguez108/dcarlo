@@ -1,0 +1,43 @@
+<!-- Temporary Placeholder SVG for Hero Images -->
+<!-- Replace with actual images following HERO-IMAGE-GUIDE.md -->
+
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elegant beige background gradient -->
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7F3EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5DCC8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="overlayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#heroGradient)"/>
+  
+  <!-- Decorative elements suggesting elegant venue -->
+  <circle cx="960" cy="300" r="80" fill="#C8A55E" opacity="0.1"/>
+  <circle cx="1200" cy="500" r="120" fill="#C8A55E" opacity="0.08"/>
+  <circle cx="720" cy="600" r="100" fill="#C8A55E" opacity="0.09"/>
+  
+  <!-- Geometric patterns suggesting chandelier -->
+  <circle cx="960" cy="400" r="40" fill="none" stroke="#C8A55E" stroke-width="2" opacity="0.3"/>
+  <circle cx="960" cy="400" r="60" fill="none" stroke="#C8A55E" stroke-width="1" opacity="0.2"/>
+  <circle cx="960" cy="400" r="80" fill="none" stroke="#C8A55E" stroke-width="1" opacity="0.15"/>
+  
+  <!-- Placeholder text -->
+  <text x="960" y="540" font-family="Georgia, serif" font-size="48" fill="#C8A55E" opacity="0.4" text-anchor="middle">
+    D'Carlo Placeholder
+  </text>
+  <text x="960" y="600" font-family="Arial, sans-serif" font-size="24" fill="#8B7355" opacity="0.5" text-anchor="middle">
+    Replace with your elegant venue photo
+  </text>
+  <text x="960" y="640" font-family="Arial, sans-serif" font-size="18" fill="#8B7355" opacity="0.4" text-anchor="middle">
+    See assets/HERO-IMAGE-GUIDE.md for specifications
+  </text>
+  
+  <!-- Subtle overlay -->
+  <rect width="1920" height="1080" fill="url(#overlayGradient)"/>
+</svg>

@@ -1,0 +1,102 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="modernWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4F0E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0D8CC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="modernFloor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8BCA8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D8CCB8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8BCA8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ledGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A55E;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#A88840;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="spotlightGlow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" style="stop-color:#FFE8A8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#C8A55E;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background Wall (Modern Clean) -->
+  <rect width="1200" height="900" fill="url(#modernWall)"/>
+  
+  <!-- Floor (Modern Polished) -->
+  <path d="M 0 580 L 0 900 L 1200 900 L 1200 580 L 1050 680 L 150 680 Z" fill="url(#modernFloor)"/>
+  
+  <!-- LED Light Track (Ceiling) -->
+  <rect x="0" y="40" width="1200" height="25" fill="#2C2C2C" opacity="0.15"/>
+  <rect x="100" y="45" width="1000" height="15" fill="url(#ledGlow)"/>
+  
+  <!-- LED Downlights (Modern Recessed) -->
+  <ellipse cx="250" cy="120" rx="50" ry="80" fill="url(#spotlightGlow)" opacity="0.5"/>
+  <circle cx="250" cy="80" r="18" fill="#FFE8A8" opacity="0.7"/>
+  
+  <ellipse cx="600" cy="130" rx="60" ry="90" fill="url(#spotlightGlow)" opacity="0.6"/>
+  <circle cx="600" cy="85" r="20" fill="#FFE8A8" opacity="0.8"/>
+  
+  <ellipse cx="950" cy="120" rx="50" ry="80" fill="url(#spotlightGlow)" opacity="0.5"/>
+  <circle cx="950" cy="80" r="18" fill="#FFE8A8" opacity="0.7"/>
+  
+  <!-- Architectural Feature Wall (Texture) -->
+  <rect x="300" y="150" width="600" height="300" fill="#FFFFFF" opacity="0.08" rx="6"/>
+  <rect x="320" y="170" width="560" height="260" fill="#C8A55E" opacity="0.05" rx="4"/>
+  
+  <!-- Vertical Accent Lines (Modern Paneling) -->
+  <line x1="400" y1="150" x2="400" y2="450" stroke="#C8A55E" stroke-width="2" opacity="0.2"/>
+  <line x1="500" y1="150" x2="500" y2="450" stroke="#C8A55E" stroke-width="2" opacity="0.2"/>
+  <line x1="600" y1="150" x2="600" y2="450" stroke="#C8A55E" stroke-width="2" opacity="0.2"/>
+  <line x1="700" y1="150" x2="700" y2="450" stroke="#C8A55E" stroke-width="2" opacity="0.2"/>
+  <line x1="800" y1="150" x2="800" y2="450" stroke="#C8A55E" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Dance Floor Area (Central) -->
+  <path d="M 350 700 L 400 580 L 800 580 L 850 700 Z" fill="#B8A890" opacity="0.4"/>
+  <rect x="400" y="580" width="400" height="120" fill="#C8A55E" opacity="0.08"/>
+  
+  <!-- Modern Seating Areas (Abstract) -->
+  <!-- Left Seating Bank -->
+  <rect x="120" y="620" width="180" height="100" fill="#D4C8B8" opacity="0.5" rx="8"/>
+  <rect x="130" y="630" width="160" height="80" fill="#8A7A68" opacity="0.3" rx="4"/>
+  
+  <!-- Right Seating Bank -->
+  <rect x="900" y="620" width="180" height="100" fill="#D4C8B8" opacity="0.5" rx="8"/>
+  <rect x="910" y="630" width="160" height="80" fill="#8A7A68" opacity="0.3" rx="4"/>
+  
+  <!-- Round Cocktail Tables -->
+  <circle cx="200" cy="760" r="40" fill="#E8DCC8" opacity="0.6"/>
+  <circle cx="380" cy="780" r="35" fill="#E8DCC8" opacity="0.5"/>
+  <circle cx="820" cy="780" r="35" fill="#E8DCC8" opacity="0.5"/>
+  <circle cx="1000" cy="760" r="40" fill="#E8DCC8" opacity="0.6"/>
+  
+  <!-- Modern Bar Counter (Back) -->
+  <rect x="420" y="250" width="360" height="60" fill="#2C2C2C" opacity="0.15" rx="6"/>
+  <rect x="430" y="260" width="340" height="40" fill="#C8A55E" opacity="0.2" rx="4"/>
+  
+  <!-- LED Strip Accent (Floor Level) -->
+  <rect x="0" y="680" width="1200" height="8" fill="#C8A55E" opacity="0.3"/>
+  <rect x="150" y="680" width="900" height="8" fill="#FFE8A8" opacity="0.2"/>
+  
+  <!-- Modern Wall Panels (Depth) -->
+  <rect x="80" y="200" width="120" height="350" fill="#FFFFFF" opacity="0.1" rx="8"/>
+  <rect x="1000" y="200" width="120" height="350" fill="#FFFFFF" opacity="0.1" rx="8"/>
+  
+  <!-- Ambient Glow (Warm Modern) -->
+  <rect x="0" y="0" width="1200" height="900" fill="#FFE8A8" opacity="0.03"/>
+  
+  <!-- Featured Badge Star (Subtle) -->
+  <polygon points="1100,80 1110,105 1137,109 1118,127 1123,154 1100,141 1077,154 1082,127 1063,109 1090,105" fill="#C8A55E" opacity="0.15"/>
+  
+  <!-- Brand Overlay -->
+  <rect x="300" y="360" width="600" height="200" fill="#000000" opacity="0.05" rx="8"/>
+  <text x="600" y="450" font-family="Georgia, serif" font-size="56" font-weight="300" fill="#C8A55E" text-anchor="middle" opacity="0.55">
+    Salón Amanda
+  </text>
+  <text x="600" y="495" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#8A7A68" text-anchor="middle" opacity="0.5">
+    Diseño Contemporáneo • 300-350 personas
+  </text>
+  <text x="600" y="525" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#C8A55E" text-anchor="middle" opacity="0.4">
+    ★ MÁS SOLICITADO
+  </text>
+</svg>
