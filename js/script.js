@@ -138,242 +138,91 @@
         {
             id: 'galeria-01',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/jardin-atardecer-01-600.avif 600w, assets/galeria/jardin-atardecer-01-900.avif 900w, assets/galeria/jardin-atardecer-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/jardin-atardecer-01-600.webp 600w, assets/galeria/jardin-atardecer-01-900.webp 900w, assets/galeria/jardin-atardecer-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/jardin-atardecer-01-600.jpg 600w, assets/galeria/jardin-atardecer-01-900.jpg 900w, assets/galeria/jardin-atardecer-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/jardin-atardecer-01-900.jpg',
-            alt: 'Montaje de banquete en Jardín D\'Carlo con iluminación cálida al atardecer',
-            caption: 'Banquete al atardecer — Jardín D\'Carlo',
+            priority: 'high',
+            sources: [],
+            srcset: 'assets/galeria/jardin-atardecer.png 900w, assets/galeria/jardin-atardecer@2x.png 1200w',
+            fallback: 'assets/galeria/jardin-atardecer.png',
+            alt: 'Jardín D\'Carlo al atardecer',
+            caption: 'Banquete dorado — Jardín D\'Carlo',
             space: 'Jardín D\'Carlo',
-            tags: ['Banquete', 'Decoración', 'Noche']
+            tags: ['Jardín', 'Atardecer', 'Ceremonias']
         },
         {
             id: 'galeria-02',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-amanda-ceremonia-01-600.avif 600w, assets/galeria/salon-amanda-ceremonia-01-900.avif 900w, assets/galeria/salon-amanda-ceremonia-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-amanda-ceremonia-01-600.webp 600w, assets/galeria/salon-amanda-ceremonia-01-900.webp 900w, assets/galeria/salon-amanda-ceremonia-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-amanda-ceremonia-01-600.jpg 600w, assets/galeria/salon-amanda-ceremonia-01-900.jpg 900w, assets/galeria/salon-amanda-ceremonia-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-amanda-ceremonia-01-900.jpg',
-            alt: 'Ceremonia civil en Salón Amanda con corredor floral dorado',
-            caption: 'Ceremonia civil — Salón Amanda',
+            sources: [],
+            srcset: 'assets/galeria/salon-amanda-luces.png 900w, assets/galeria/salon-amanda-luces@2x.png 1200w',
+            fallback: 'assets/galeria/salon-amanda-luces.png',
+            alt: 'Salón Amanda iluminado para recepción nocturna',
+            caption: 'Recepción nocturna con iluminación cálida — Salón Amanda',
             space: 'Salón Amanda',
-            tags: ['Ceremonias', 'Decoración']
+            tags: ['Recepción', 'Nocturno', 'Decoración']
         },
         {
             id: 'galeria-03',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-america-detalles-01-600.avif 600w, assets/galeria/salon-america-detalles-01-900.avif 900w, assets/galeria/salon-america-detalles-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-america-detalles-01-600.webp 600w, assets/galeria/salon-america-detalles-01-900.webp 900w, assets/galeria/salon-america-detalles-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-america-detalles-01-600.jpg 600w, assets/galeria/salon-america-detalles-01-900.jpg 900w, assets/galeria/salon-america-detalles-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-america-detalles-01-900.jpg',
-            alt: 'Detalle de mesa imperial en Salón América con vajilla negra y dorada',
-            caption: 'Mesa imperial con styling editorial — Salón América',
+            sources: [],
+            srcset: 'assets/galeria/america-quince.png 900w, assets/galeria/america-quince@2x.png 1200w',
+            fallback: 'assets/galeria/america-quince.png',
+            alt: 'Salón América - Celebración de Quinceañera',
+            caption: 'Quinceañera en Salón América — Elegancia y tradición',
             space: 'Salón América',
-            tags: ['Detalles', 'Decoración', 'Banquete']
+            tags: ['Quinceañera', 'Banquete', 'Decoración']
         },
         {
             id: 'galeria-04',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/jardin-coctel-01-600.avif 600w, assets/galeria/jardin-coctel-01-900.avif 900w, assets/galeria/jardin-coctel-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/jardin-coctel-01-600.webp 600w, assets/galeria/jardin-coctel-01-900.webp 900w, assets/galeria/jardin-coctel-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/jardin-coctel-01-600.jpg 600w, assets/galeria/jardin-coctel-01-900.jpg 900w, assets/galeria/jardin-coctel-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/jardin-coctel-01-900.jpg',
-            alt: 'Coctel al aire libre en Jardín D\'Carlo con carpas transparentes',
-            caption: 'Coctel vespertino bajo carpas transparentes — Jardín D\'Carlo',
+            sources: [],
+            srcset: 'assets/galeria/jardin-cumple.png 900w, assets/galeria/jardin-cumple@2x.png 1200w',
+            fallback: 'assets/galeria/jardin-cumple.png',
+            alt: 'Jardín D\'Carlo - Fiesta de cumpleaños infantil',
+            caption: 'Cumpleaños infantil en Jardín D\'Carlo — Alegría y diversión al aire libre',
             space: 'Jardín D\'Carlo',
-            tags: ['Coctel', 'Decoración']
+            tags: ['Cumpleaños Infantil', 'Jardín', 'Fiesta']
         },
         {
             id: 'galeria-05',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-amanda-banquete-02-600.avif 600w, assets/galeria/salon-amanda-banquete-02-900.avif 900w, assets/galeria/salon-amanda-banquete-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-amanda-banquete-02-600.webp 600w, assets/galeria/salon-amanda-banquete-02-900.webp 900w, assets/galeria/salon-amanda-banquete-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-amanda-banquete-02-600.jpg 600w, assets/galeria/salon-amanda-banquete-02-900.jpg 900w, assets/galeria/salon-amanda-banquete-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-amanda-banquete-02-900.jpg',
-            alt: 'Banquete nocturno en Salón Amanda con pista de mármol iluminada',
-            caption: 'Banquete nocturno con pista iluminada — Salón Amanda',
-            space: 'Salón Amanda',
-            tags: ['Banquete', 'Noche', 'Decoración']
+            sources: [],
+            srcset: 'assets/galeria/salon-amanda-ceremonia-civil.png 900w, assets/galeria/salon-amanda-ceremonia-civil@2x.png 1200w',
+            fallback: 'assets/galeria/salon-amanda-ceremonia-civil.png',
+            alt: 'Salón Amanda - Ceremonia civil íntima y elegante',
+            caption: 'Ceremonia civil íntima y elegante — El escenario perfecto para tu unión en Salón Amanda',
+            space: 'Ceremonia Civil - Salón Amanda',
+            tags: ['Ceremonia Civil', 'Salón Amanda', 'Boda']
         },
         {
             id: 'galeria-06',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-america-ceremonia-02-600.avif 600w, assets/galeria/salon-america-ceremonia-02-900.avif 900w, assets/galeria/salon-america-ceremonia-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-america-ceremonia-02-600.webp 600w, assets/galeria/salon-america-ceremonia-02-900.webp 900w, assets/galeria/salon-america-ceremonia-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-america-ceremonia-02-600.jpg 600w, assets/galeria/salon-america-ceremonia-02-900.jpg 900w, assets/galeria/salon-america-ceremonia-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-america-ceremonia-02-900.jpg',
-            alt: 'Ceremonia nupcial íntima en Salón América con iluminación cenital',
-            caption: 'Ceremonia íntima — Salón América',
-            space: 'Salón América',
-            tags: ['Ceremonias', 'Decoración', 'Noche']
+            sources: [],
+            srcset: 'assets/galeria/jardin-pool-party.png 900w, assets/galeria/jardin-pool-party@2x.png 1200w',
+            fallback: 'assets/galeria/jardin-pool-party.png',
+            alt: 'Pool Party en Jardín D\'Carlo con piscina iluminada',
+            caption: 'Pool Party en Jardín D\'Carlo — Diversión y frescura al aire libre junto a la piscina',
+            space: 'Pool Party - Jardín D\'Carlo',
+            tags: ['Pool Party', 'Jardín', 'Fiesta']
         },
         {
             id: 'galeria-07',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/jardin-detalle-01-600.avif 600w, assets/galeria/jardin-detalle-01-900.avif 900w, assets/galeria/jardin-detalle-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/jardin-detalle-01-600.webp 600w, assets/galeria/jardin-detalle-01-900.webp 900w, assets/galeria/jardin-detalle-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/jardin-detalle-01-600.jpg 600w, assets/galeria/jardin-detalle-01-900.jpg 900w, assets/galeria/jardin-detalle-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/jardin-detalle-01-900.jpg',
-            alt: 'Detalle floral suspendido en Jardín D\'Carlo con velas colgantes',
-            caption: 'Detalle floral suspendido — Jardín D\'Carlo',
-            space: 'Jardín D\'Carlo',
-            tags: ['Detalles', 'Decoración', 'Noche']
+            sources: [],
+            srcset: 'assets/galeria/amanda-fiesta-mexicana.png 900w, assets/galeria/amanda-fiesta-mexicana@2x.png 1200w',
+            fallback: 'assets/galeria/amanda-fiesta-mexicana.png',
+            alt: 'Fiesta Mexicana en Salón Amanda - Tradición y color',
+            caption: 'Fiesta Mexicana en Salón Amanda — Tradición, color y alegría en cada detalle',
+            space: 'Fiesta Mexicana - Salón Amanda',
+            tags: ['Fiesta Mexicana', 'Salón Amanda', 'Cultural']
         },
         {
             id: 'galeria-08',
             type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-america-coctel-01-600.avif 600w, assets/galeria/salon-america-coctel-01-900.avif 900w, assets/galeria/salon-america-coctel-01-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-america-coctel-01-600.webp 600w, assets/galeria/salon-america-coctel-01-900.webp 900w, assets/galeria/salon-america-coctel-01-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-america-coctel-01-600.jpg 600w, assets/galeria/salon-america-coctel-01-900.jpg 900w, assets/galeria/salon-america-coctel-01-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-america-coctel-01-900.jpg',
-            alt: 'Coctel corporativo en Salón América con barra iluminada',
-            caption: 'Coctel corporativo con mixología signature — Salón América',
-            space: 'Salón América',
-            tags: ['Coctel', 'Noche']
-        },
-        {
-            id: 'galeria-09',
-            type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-amanda-detalle-02-600.avif 600w, assets/galeria/salon-amanda-detalle-02-900.avif 900w, assets/galeria/salon-amanda-detalle-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-amanda-detalle-02-600.webp 600w, assets/galeria/salon-amanda-detalle-02-900.webp 900w, assets/galeria/salon-amanda-detalle-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-amanda-detalle-02-600.jpg 600w, assets/galeria/salon-amanda-detalle-02-900.jpg 900w, assets/galeria/salon-amanda-detalle-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-amanda-detalle-02-900.jpg',
-            alt: 'Detalle de papelería y lugar marcado en Salón Amanda',
-            caption: 'Lugar marcado con papelería personalizada — Salón Amanda',
-            space: 'Salón Amanda',
-            tags: ['Detalles', 'Banquete']
-        },
-        {
-            id: 'galeria-10',
-            type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/jardin-ceremonia-02-600.avif 600w, assets/galeria/jardin-ceremonia-02-900.avif 900w, assets/galeria/jardin-ceremonia-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/jardin-ceremonia-02-600.webp 600w, assets/galeria/jardin-ceremonia-02-900.webp 900w, assets/galeria/jardin-ceremonia-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/jardin-ceremonia-02-600.jpg 600w, assets/galeria/jardin-ceremonia-02-900.jpg 900w, assets/galeria/jardin-ceremonia-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/jardin-ceremonia-02-900.jpg',
-            alt: 'Ceremonia al aire libre en Jardín D\'Carlo con arco floral',
-            caption: 'Ceremonia al aire libre con arco floral — Jardín D\'Carlo',
-            space: 'Jardín D\'Carlo',
-            tags: ['Ceremonias', 'Decoración']
-        },
-        {
-            id: 'galeria-11',
-            type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/salon-america-banquete-02-600.avif 600w, assets/galeria/salon-america-banquete-02-900.avif 900w, assets/galeria/salon-america-banquete-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/salon-america-banquete-02-600.webp 600w, assets/galeria/salon-america-banquete-02-900.webp 900w, assets/galeria/salon-america-banquete-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/salon-america-banquete-02-600.jpg 600w, assets/galeria/salon-america-banquete-02-900.jpg 900w, assets/galeria/salon-america-banquete-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/salon-america-banquete-02-900.jpg',
-            alt: 'Banquete corporativo en Salón América con iluminación azul y dorada',
-            caption: 'Banquete corporativo — Salón América',
-            space: 'Salón América',
-            tags: ['Banquete', 'Noche']
-        },
-        {
-            id: 'galeria-12',
-            type: 'image',
-            sources: [
-                {
-                    type: 'image/avif',
-                    srcset: 'assets/galeria/jardin-detalle-02-600.avif 600w, assets/galeria/jardin-detalle-02-900.avif 900w, assets/galeria/jardin-detalle-02-1200.avif 1200w'
-                },
-                {
-                    type: 'image/webp',
-                    srcset: 'assets/galeria/jardin-detalle-02-600.webp 600w, assets/galeria/jardin-detalle-02-900.webp 900w, assets/galeria/jardin-detalle-02-1200.webp 1200w'
-                }
-            ],
-            srcset: 'assets/galeria/jardin-detalle-02-600.jpg 600w, assets/galeria/jardin-detalle-02-900.jpg 900w, assets/galeria/jardin-detalle-02-1200.jpg 1200w',
-            fallback: 'assets/galeria/jardin-detalle-02-900.jpg',
-            alt: 'Detalle de mesa de postres en Jardín D\'Carlo con dorado y cristal',
-            caption: 'Mesa de postres con acentos dorados — Jardín D\'Carlo',
-            space: 'Jardín D\'Carlo',
-            tags: ['Detalles', 'Banquete']
+            sources: [],
+            srcset: 'assets/galeria/jardin-boda.png 900w, assets/galeria/jardin-boda@2x.png 1200w',
+            fallback: 'assets/galeria/jardin-boda.png',
+            alt: 'Boda en Jardín D\'Carlo - Elegancia y romanticismo al aire libre',
+            caption: 'Boda en Jardín D\'Carlo — El escenario perfecto para tu día especial, elegante y romántico',
+            space: 'Boda en Jardín D\'Carlo',
+            tags: ['Boda', 'Jardín', 'Ceremonias']
         }
     ];
     const galeriaState = {
@@ -1988,7 +1837,7 @@
             galeriaCardObserver.disconnect();
         }
 
-        const filtered = galeriaItems.filter(matchesGaleriaFilters);
+    const filtered = galeriaItems.filter((item, index) => matchesGaleriaFilters(item, index));
         galeriaState.filteredItems = filtered;
 
         const visibleItems = filtered.slice(0, galeriaState.visibleCount);
@@ -2044,21 +1893,48 @@
         card.dataset.tags = item.tags.join('|');
 
         pictureEl.innerHTML = '';
-        item.sources.forEach(sourceData => {
-            const source = document.createElement('source');
-            source.type = sourceData.type;
-            source.srcset = sourceData.srcset;
-            source.sizes = GALERIA_IMAGE_SIZES;
-            pictureEl.appendChild(source);
-        });
+        if (Array.isArray(item.sources) && item.sources.length) {
+            item.sources.forEach(sourceData => {
+                const source = document.createElement('source');
+                if (sourceData.type) {
+                    source.type = sourceData.type;
+                }
+                if (sourceData.srcset) {
+                    source.srcset = sourceData.srcset;
+                }
+                source.sizes = sourceData.sizes || GALERIA_IMAGE_SIZES;
+                pictureEl.appendChild(source);
+            });
+        }
 
         const img = document.createElement('img');
+        const targetWidth = item.width || 900;
+        const targetHeight = item.height || 1200;
+        const isHighPriority = item.priority === 'high' || index === 0;
+
+        img.classList.add('galeria-card__image');
         img.src = item.fallback;
         img.alt = item.alt;
         img.decoding = 'async';
-        img.sizes = GALERIA_IMAGE_SIZES;
-        img.srcset = item.srcset;
-        img.loading = index < GALERIA_INITIAL_BATCH ? 'eager' : 'lazy';
+        img.width = targetWidth;
+        img.height = targetHeight;
+        img.setAttribute('width', String(targetWidth));
+        img.setAttribute('height', String(targetHeight));
+
+        if (item.srcset) {
+            img.srcset = item.srcset;
+            img.sizes = GALERIA_IMAGE_SIZES;
+        }
+
+        if (isHighPriority) {
+            img.loading = 'eager';
+            img.setAttribute('loading', 'eager');
+            img.setAttribute('fetchpriority', 'high');
+        } else {
+            img.loading = 'lazy';
+            img.setAttribute('loading', 'lazy');
+        }
+
         pictureEl.appendChild(img);
 
         mediaButton.dataset.galeriaItemId = item.id;
@@ -2079,8 +1955,29 @@
         return card;
     }
 
-    function matchesGaleriaFilters(item) {
-        return galeriaState.activeSpace === 'Todos' || item.space === galeriaState.activeSpace;
+    function matchesGaleriaFilters(item, index) {
+        const filter = galeriaState.activeSpace;
+
+        if (filter === 'Todos') {
+            return true;
+        }
+
+        // Map filters to 1-based DOM card positions as requested
+        const position = index + 1; // convert 0-based index to 1-based
+
+        if (filter === "Jardín D'Carlo") {
+            return position === 1 || position === 4 || position === 6 || position === 8;
+        }
+
+        if (filter === 'Salón Amanda') {
+            return position === 2 || position === 5 || position === 7;
+        }
+
+        if (filter === 'Salón América') {
+            return position === 3;
+        }
+
+        return true;
     }
 
     function openGaleriaLightbox(itemId) {

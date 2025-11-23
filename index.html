@@ -187,21 +187,26 @@
                         </p>
                     </div>
                     <div class="about__media">
-                        <picture>
-                            <source 
-                                media="(min-width: 1200px)" 
-                                srcset="assets/about-venue.webp 400w"
-                                type="image/webp">
-                            <source 
-                                media="(min-width: 768px)" 
-                                srcset="assets/about-venue.webp 500w"
-                                type="image/webp">
-                            <img 
-                                src="assets/about-placeholder.svg" 
-                                alt="Elegant architectural detail of D'Carlo event venue interior"
-                                class="about__image"
-                                loading="lazy">
-                        </picture>
+                        <div class="about__media-frame">
+                            <video
+                                class="about__video"
+                                aria-label="Recorrido en video por D'Carlo Jardín y Salón de Eventos"
+                                poster="assets/about-placeholder.svg"
+                                preload="metadata"
+                                data-preload-mobile="none"
+                                playsinline
+                                autoplay
+                                muted
+                                loop
+                                controls
+                                loading="lazy"
+                                width="1024"
+                                height="768">
+                                <source src="assets/about-video.webm" type="video/webm">
+                                <source src="assets/about-video.mp4" type="video/mp4">
+                                Su navegador no soporta reproducción de video. Descárguelo para verlo.
+                            </video>
+                        </div>
                     </div>
                 </div>
                 
@@ -325,20 +330,12 @@
                     <article class="space-card" data-space="jardin">
                         <div class="space-card__image-wrapper">
                             <picture class="space-card__image">
-                                <source 
-                                    type="image/avif"
-                                    srcset="assets/jardin-placeholder.svg"
-                                    media="(min-width: 768px)">
-                                <source 
-                                    type="image/webp"
-                                    srcset="assets/jardin-placeholder.svg"
-                                    media="(min-width: 768px)">
                                 <img 
-                                    src="assets/jardin-placeholder.svg" 
-                                    alt="Jardín D'Carlo - Espacio al aire libre con paisajismo natural"
+                                    src="assets/jardin-dcarlo.png" 
+                                    alt="Jardín D'Carlo - Espacio al aire libre para eventos"
                                     loading="lazy"
-                                    width="800"
-                                    height="600">
+                                    width="1024"
+                                    height="768">
                             </picture>
                             <div class="space-card__badge" aria-label="Tipo de espacio">
                                 <svg class="badge-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -412,20 +409,12 @@
                     <article class="space-card" data-space="america">
                         <div class="space-card__image-wrapper">
                             <picture class="space-card__image">
-                                <source 
-                                    type="image/avif"
-                                    srcset="assets/america-placeholder.svg"
-                                    media="(min-width: 768px)">
-                                <source 
-                                    type="image/webp"
-                                    srcset="assets/america-placeholder.svg"
-                                    media="(min-width: 768px)">
                                 <img 
-                                    src="assets/america-placeholder.svg" 
-                                    alt="Salón America - Espacio interior elegante con iluminación de candelabros"
+                                    src="assets/salon-america.png" 
+                                    alt="Salón América - Espacio elegante para eventos"
                                     loading="lazy"
-                                    width="800"
-                                    height="600">
+                                    width="1024"
+                                    height="768">
                             </picture>
                             <div class="space-card__badge" aria-label="Tipo de espacio">
                                 <svg class="badge-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -500,20 +489,12 @@
                     <article class="space-card" data-space="amanda">
                         <div class="space-card__image-wrapper">
                             <picture class="space-card__image">
-                                <source 
-                                    type="image/avif"
-                                    srcset="assets/amanda-placeholder.svg"
-                                    media="(min-width: 768px)">
-                                <source 
-                                    type="image/webp"
-                                    srcset="assets/amanda-placeholder.svg"
-                                    media="(min-width: 768px)">
                                 <img 
-                                    src="assets/amanda-placeholder.svg" 
-                                    alt="Salón Amanda - Espacio interior moderno con diseño flexible"
+                                    src="assets/salon-amanda.png" 
+                                    alt="Salón Amanda - Espacio íntimo para eventos"
                                     loading="lazy"
-                                    width="800"
-                                    height="600">
+                                    width="1024"
+                                    height="768">
                             </picture>
                             <div class="space-card__badge space-card__badge--featured" aria-label="Tipo de espacio">
                                 <svg class="badge-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -968,8 +949,8 @@
                     </header>
                     <figure class="eventos-section__hero">
                         <picture>
-                            <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                            <img src="assets/hero-placeholder.svg" alt="Montaje editorial con mesa elegante y decoración dorada en D'Carlo" loading="lazy" width="960" height="640">
+                            <source srcset="assets/hero-placeholder-2.png" type="image/png">
+                            <img src="assets/hero-placeholder-2.png" alt="Montaje editorial con mesa elegante y decoración dorada en D'Carlo" loading="lazy" width="960" height="540">
                         </picture>
                     </figure>
                 </div>
@@ -982,10 +963,7 @@
                             <p class="event-card__promise">Planeación integral para bodas con dirección creativa impecable y ejecución sin estrés totalmente personalizada para ustedes.</p>
                         </header>
                         <figure class="event-card__media">
-                            <picture>
-                                <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                                <img src="assets/hero-placeholder.svg" alt="Montaje de boda con arreglos florales blancos y dorado en D'Carlo" loading="lazy" width="640" height="426">
-                            </picture>
+                            <img src="assets/event-card-1.png" alt="Montaje de boda con arreglos florales blancos y dorado en D'Carlo" loading="lazy" width="640" height="426">
                         </figure>
                         <div class="event-card__body">
                             <p class="event-card__capacity">Ideal para 120-250 invitados</p>
@@ -1014,10 +992,7 @@
                             <p class="event-card__promise">Celebración signature con narrativa moderna, coreografías memorables y producción escénica envolvente.</p>
                         </header>
                         <figure class="event-card__media">
-                            <picture>
-                                <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                                <img src="assets/hero-placeholder.svg" alt="Escenografía de XV años con iluminación dorada y pista de baile" loading="lazy" width="640" height="426">
-                            </picture>
+                            <img src="assets/event-card-2.png" alt="Escenografía de XV años con iluminación dorada y pista de baile" loading="lazy" width="640" height="426">
                         </figure>
                         <div class="event-card__body">
                             <p class="event-card__capacity">Ideal para 180-320 invitados</p>
@@ -1046,10 +1021,7 @@
                             <p class="event-card__promise">Diseñamos celebraciones boutique o gran formato con experiencias tailor-made para cada homenajeado.</p>
                         </header>
                         <figure class="event-card__media">
-                            <picture>
-                                <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                                <img src="assets/hero-placeholder.svg" alt="Montaje de fiesta de cumpleaños con mesa de postres y globos dorados" loading="lazy" width="640" height="426">
-                            </picture>
+                            <img src="assets/event-card-3.png" alt="Montaje de fiesta de cumpleaños con mesa de postres y globos dorados" loading="lazy" width="640" height="426">
                         </figure>
                         <div class="event-card__body">
                             <p class="event-card__capacity">Ideal para 60-180 invitados</p>
@@ -1078,10 +1050,7 @@
                             <p class="event-card__promise">Encuentros cálidos y sofisticados con atmósfera cercana, detalles delicados y servicio atento.</p>
                         </header>
                         <figure class="event-card__media">
-                            <picture>
-                                <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                                <img src="assets/hero-placeholder.svg" alt="Montaje de baby shower con tonos beige y arreglos florales finos" loading="lazy" width="640" height="426">
-                            </picture>
+                            <img src="assets/event-card-4.png" alt="Montaje de baby shower con tonos beige y arreglos florales finos" loading="lazy" width="640" height="426">
                         </figure>
                         <div class="event-card__body">
                             <p class="event-card__capacity">Ideal para 40-120 invitados</p>
@@ -1309,21 +1278,9 @@
                             <h3 class="contacto-info__title">Conecta directo</h3>
                             <ul class="contacto-info__list">
                                 <li>
-                                    <a href="tel:+526561234567" class="contacto-link" aria-label="Llamar al número +52 656 123 4567">
-                                        <span class="contacto-link__label">Teléfono</span>
-                                        <span class="contacto-link__value">+52 656 123 4567</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://wa.me/526561234567" target="_blank" rel="noopener" class="contacto-link" aria-label="Abrir chat de WhatsApp">
+                                    <a href="https://wa.me/526566663526" target="_blank" rel="noopener" class="contacto-link" aria-label="Abrir chat de WhatsApp">
                                         <span class="contacto-link__label">WhatsApp</span>
-                                        <span class="contacto-link__value">+52 656 123 4567</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:contacto@dcarloeventos.com" class="contacto-link" aria-label="Enviar correo a contacto@dcarloeventos.com">
-                                        <span class="contacto-link__label">Email</span>
-                                        <span class="contacto-link__value">contacto@dcarloeventos.com</span>
+                                        <span class="contacto-link__value">+52-656-666-3526</span>
                                     </a>
                                 </li>
                             </ul>
@@ -1341,15 +1298,11 @@
                             <div class="contacto-info-card contacto-info-card--location">
                             <h3 class="contacto-info__title">Ubicación</h3>
                             <address class="contacto-address">
-                                Blvd. de los Sueños 1234<br>
-                                Ciudad Juárez, Chihuahua
+                                C. Valle del Sol 1448-5<br>
+                                32580 Juárez, Chih.
                             </address>
-                                <button type="button" class="contacto-map__trigger" data-contacto-map-trigger aria-expanded="false">Ver en Google Maps</button>
-                                <div class="contacto-map" data-contacto-map data-map-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.937738339708!2d-106.42454702380707!3d31.694344939885385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759015af1aaab%3A0x2fb35cd0fb7cb847!2sCiudad%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses!2smx!4v1717350000000!5m2!1ses!2smx" data-map-link="https://maps.app.goo.gl/DvJgJpPFtDqpnWg46">
-                                <picture>
-                                    <source srcset="assets/hero-placeholder.svg" type="image/svg+xml">
-                                    <img src="assets/hero-placeholder.svg" alt="Mapa de ubicación de D'Carlo" loading="lazy" width="640" height="426">
-                                </picture>
+                                <div class="contacto-map" data-contacto-map data-map-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.8659701370407!2d-106.3655893!3d31.692231800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d20e7386de1%3A0xb66514f482b1a19d!2sD&#39;Carlo%20Jard%C3%ADn%20y!5e0!3m2!1ses-419!2smx!4v1763934337758!5m2!1ses-419!2smx" data-map-link="https://maps.app.goo.gl/DvJgJpPFtDqpnWg46">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.8659701370407!2d-106.3655893!3d31.692231800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d20e7386de1%3A0xb66514f482b1a19d!2sD&#39;Carlo%20Jard%C3%ADn%20y!5e0!3m2!1ses-419!2smx!4v1763934337758!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
 
@@ -1451,26 +1404,16 @@
                 <section class="footer-contact" aria-label="Contacto y ubicación">
                     <h3 class="footer-contact__heading">Contacto directo</h3>
                     <div class="footer-contact__actions">
-                        <a href="tel:+526561234567" class="footer-contact__action" aria-label="Llamar al +52 656 123 4567">
-                            <span class="footer-contact__action-label">Teléfono</span>
-                            <span class="footer-contact__action-value">+52 656 123 4567</span>
-                        </a>
-                        <a href="https://wa.me/526561234567" class="footer-contact__action" aria-label="Abrir WhatsApp" data-footer-whatsapp>
+                        <a href="https://wa.me/526566663526" class="footer-contact__action" aria-label="Abrir WhatsApp" data-footer-whatsapp>
                             <span class="footer-contact__action-label">WhatsApp</span>
-                            <span class="footer-contact__action-value">+52 656 123 4567</span>
-                        </a>
-                        <a href="mailto:contacto@dcarloeventos.com" class="footer-contact__action" aria-label="Enviar correo a contacto@dcarloeventos.com">
-                            <span class="footer-contact__action-label">Email</span>
-                            <span class="footer-contact__action-value">contacto@dcarloeventos.com</span>
+                            <span class="footer-contact__action-value">+52-656-666-3526</span>
                         </a>
                     </div>
 
                     <div class="footer-contact__location">
                         <p class="footer-contact__address">
-                            <span>Blvd. de los Sueños 1234</span>
-                            <span>Ciudad Juárez, Chihuahua</span>
+                            <span>C. Valle del Sol 1448-5, 32580 Juárez, Chih.</span>
                         </p>
-                        <a href="https://maps.app.goo.gl/DvJgJpPFtDqpnWg46" class="footer-contact__map-link"></a>
                     </div>
 
                     <div class="footer-contact__hours">
